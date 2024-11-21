@@ -1,3 +1,6 @@
+@extends('layout')
+
+<h1>Új autó felvitele</h1>
 <form action="/cars" method="POST">
     @csrf
     <label for="plate">Rendszám:</label>

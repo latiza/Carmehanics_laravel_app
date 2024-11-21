@@ -9,6 +9,7 @@ th, td {
 }
 
 form {
+    width: 60rem;
     display: flex;
     flex-direction: column;
     gap: 10px;
